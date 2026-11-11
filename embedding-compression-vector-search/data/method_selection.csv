@@ -1,0 +1,21 @@
+mode,representation,direct_bits_or_budget,factor_precision,included_models,excluded_models,cells_per_method,rtn,gptq,gptaq,awq,tied_winners,execution_representative
+both_quantized,direct,2,,NV-Embed-v2; BGE-base,,32,2.009482769193335,15.157137457834342,9.929713660223364,5.27611128376076,gptq,gptq
+both_quantized,direct,3,,NV-Embed-v2; BGE-base,,32,18.852181684644428,19.776517098271324,19.500761095651097,19.676658598712834,gptq,gptq
+both_quantized,direct,4,,NV-Embed-v2; BGE-base,,32,20.102132142083942,20.11448257642309,20.08607357881183,20.056562641065444,gptq,gptq
+both_quantized,direct,8,,NV-Embed-v2; BGE-base,,32,20.23294679844824,20.246363481787096,20.237032734701305,20.23262555466832,gptq,gptq
+both_quantized,decomposition,2,4,NV-Embed-v2; BGE-base,,32,18.298479156286714,18.421131249649957,18.442806467952735,18.5072109886866,awq,awq
+both_quantized,decomposition,2,8,NV-Embed-v2,BGE-base,16,8.060545673137113,8.091263647187496,8.078613801331716,8.03578333433065,gptq,gptq
+both_quantized,decomposition,2,FP16,NV-Embed-v2,BGE-base,16,5.348254754377357,5.348254754377357,5.348254754377357,5.324524372472331,rtn; gptq; gptaq,rtn
+both_quantized,decomposition,4,8,NV-Embed-v2; BGE-base,,32,18.54128438332773,18.544119436345188,18.54611788077716,18.56306693594418,awq,awq
+both_quantized,decomposition,4,FP16,NV-Embed-v2,BGE-base,16,7.942482202375102,7.942482202375102,7.942482202375102,7.924483648873026,rtn; gptq; gptaq,rtn
+both_quantized,decomposition,8,FP16,NV-Embed-v2; BGE-base,,32,18.53792690900601,18.53792690900601,18.53792690900601,18.59004843536731,awq,awq
+original_docs_quantized_queries,direct,2,,NV-Embed-v2; BGE-base,,32,1.8204727942817245,16.51806906506987,13.40564405400877,5.985173781143998,gptq,gptq
+original_docs_quantized_queries,direct,3,,NV-Embed-v2; BGE-base,,32,19.260876400100443,19.949565358279642,20.050602818104764,19.95280546074097,gptaq,gptaq
+original_docs_quantized_queries,direct,4,,NV-Embed-v2; BGE-base,,32,20.113388628104538,20.13933845715201,20.164555851031725,20.16709144332611,awq,awq
+original_docs_quantized_queries,direct,8,,NV-Embed-v2; BGE-base,,32,20.245650532953203,20.238870474482376,20.24293925357705,20.24100446712472,rtn,rtn
+original_docs_quantized_queries,decomposition,2,4,NV-Embed-v2; BGE-base,,32,18.582634691390563,18.93713294697537,18.79797617136782,18.75322611944191,gptq,gptq
+original_docs_quantized_queries,decomposition,2,8,NV-Embed-v2,BGE-base,16,8.26981364674908,8.328314733740376,8.314981932786202,8.267229130648854,gptq,gptq
+original_docs_quantized_queries,decomposition,2,FP16,NV-Embed-v2,BGE-base,16,4.001346652307571,4.001346652307571,4.001346652307571,3.966338530015029,rtn; gptq; gptaq,rtn
+original_docs_quantized_queries,decomposition,4,8,NV-Embed-v2; BGE-base,,32,18.800700372841167,18.82464626006068,18.810789232495313,18.77547865155131,gptq,gptq
+original_docs_quantized_queries,decomposition,4,FP16,NV-Embed-v2,BGE-base,16,8.109081845249563,8.109081845249563,8.109081845249563,8.125680438284249,awq,awq
+original_docs_quantized_queries,decomposition,8,FP16,NV-Embed-v2; BGE-base,,32,18.791396604592013,18.791396604592013,18.791396604592013,18.86507442476643,awq,awq

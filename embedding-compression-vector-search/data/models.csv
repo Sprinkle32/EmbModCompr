@@ -1,0 +1,11 @@
+model,checkpoint,revision
+NV-Embed-v2,nvidia/NV-Embed-v2,3fa59658547db50a1e8e3346cf057fd0c77ed6ef
+BGE-base,BAAI/bge-base-en-v1.5,a5beb1e
+MiniLM,sentence-transformers/all-MiniLM-L6-v2,1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+BGE-M3,BAAI/bge-m3,5617a9f61b028005a4858fdac845db406aefb181
+GTE-Qwen2-1.5B-instruct,Alibaba-NLP/gte-Qwen2-1.5B-instruct,a9af15a6372d7d6b25e9fb07c2ccb9e1fe645644
+F2LLM-1.7B,codefuse-ai/F2LLM-1.7B,cb8d3c8032406948af52b960ebb05b9e7830ac3a
+Qwen3-Embedding-0.6B,Qwen/Qwen3-Embedding-0.6B,97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3
+Qwen3-Embedding-4B,Qwen/Qwen3-Embedding-4B,5cf2132abc99cad020ac570b19d031efec650f2b
+Qwen3-Embedding-8B,Qwen/Qwen3-Embedding-8B,1d8ad4ca9b3dd8059ad90a75d4983776a23d44af
+

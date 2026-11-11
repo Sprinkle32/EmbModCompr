@@ -1,0 +1,19 @@
+name,group,queries,documents
+NanoClimateFEVER,NanoBEIR,50,3408
+NanoDBPedia,NanoBEIR,50,6045
+NanoFEVER,NanoBEIR,50,4996
+NanoFiQA2018,NanoBEIR,50,4571
+NanoHotpotQA,NanoBEIR,50,5090
+NanoMSMARCO,NanoBEIR,50,5043
+NanoNFCorpus,NanoBEIR,50,2953
+NanoNQ,NanoBEIR,50,5035
+NanoQuoraRetrieval,NanoBEIR,50,5046
+NanoSCIDOCS,NanoBEIR,50,1866
+NanoArguAna,NanoBEIR,50,3635
+NanoSciFact,NanoBEIR,50,2919
+NanoTouche2020,NanoBEIR,49,5745
+CQA_android,CQA,153,22998
+CQA_programmers,CQA,165,32176
+CQA_tex,CQA,594,68184
+NQ,Full corpus,3452,2681468
+FiQA,Full corpus,648,57638

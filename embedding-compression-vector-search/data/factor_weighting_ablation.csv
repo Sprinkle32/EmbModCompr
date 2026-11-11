@@ -1,0 +1,5 @@
+model,weight_precision,change,group,tasks,delta_ndcg_at_10
+BGE-M3,32,Add input weighting to plain SVD,NanoBEIR,13,0.46433902197821053
+BGE-M3,32,Add output weighting to input-only factors,NanoBEIR,13,0.06032135458687432
+BGE-M3,32,Add input weighting to plain SVD,CQA,3,0.3326827643560067
+BGE-M3,32,Add output weighting to input-only factors,CQA,3,0.04781331741969064
